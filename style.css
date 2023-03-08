@@ -1,5 +1,5 @@
 body {
-  font-family: Anonymous Pro, monospace;
+  font-family: Julia Mono, monospace;
   background-color: #040404;
   color: #cccccc;
   text-align: center;
@@ -17,7 +17,7 @@ li {
 .myButton {
   background-color: transparent;
   color: #bbffbb;
-  font-family: Anonymous Pro, monospace;
+  font-family: Julia Mono, monospace;
   border: none;
   cursor: pointer;
   padding: 5px 5px;
@@ -27,6 +27,7 @@ li {
 .myButton:hover {
   background-color: #bbffbb;
   color: #21ff21;
+  font-family: Anonymous Pro, monospace;
 }
 
 .text-container {
