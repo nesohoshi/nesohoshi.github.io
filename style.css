@@ -1,0 +1,41 @@
+body {
+  font-family: Anonymous Pro, monospace;
+  background-color: #040404;
+  color: #cccccc;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  text-align: center;
+}
+
+.myButton {
+  background-color: transparent;
+  color: #bbffbb;
+  font-family: Anonymous Pro, monospace;
+  border: none;
+  cursor: pointer;
+  padding: 5px 5px;
+  font-size: 16px;
+}
+
+.myButton:hover {
+  background-color: #bbffbb;
+  color: #21ff21;
+}
+
+.text-container {
+  width: 47%;
+  margin: 0 auto;
+  text-align: justify;
+  word-wrap: break-word;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+}
