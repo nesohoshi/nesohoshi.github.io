@@ -6,6 +6,15 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     
+    <script>
+		document.addEventListener("DOMContentLoaded", function() {
+			document.getElementById("mainButton").addEventListener("click", function() {
+			  history.replaceState(null, null, "/main");
+			  window.location.href = "index";
+			});
+		});
+	</script>
+    
     <title>Уголок Neso Hiroshi</title>
   </head>
   </head>
@@ -13,10 +22,8 @@
     <h2>Тест кнопки:</h2>
     <p>Пройден успешно!</p>
       <li>
-    <button class="myButton" onclick="window.location.href='./'">
-      Перейти обратно
-    </button>
-  </li>
+      <button class="myButton" id="mainButton">Перейти обратно</button>
+     </li>
 
   </body>
 </html>
